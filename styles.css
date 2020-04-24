@@ -20,13 +20,20 @@ h1{
 }
 
  #random{
+   color: white;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding: 10px 30px 10px 30px;
   margin: 30px;
-  background-color: rgb(233, 216, 195);
+  background-color: rgb(80, 90, 92);
   outline:0;
   font-size: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#random:hover{
+  box-shadow: 5px 4px 13px #b3b3b3, -5px -5px 13px #b3b3b3;
+  cursor: pointer;
+  outline:0;
 }
