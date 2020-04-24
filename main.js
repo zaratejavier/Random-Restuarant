@@ -24,10 +24,19 @@ function randomPicture() {
     setTimeout(() => {
       const randomPic = images[Math.floor(Math.random() * images.length)];
       document.getElementById("photo").src = randomPic
-      
+
     }, 50 * i)
   ]
 }
+
+document.onkeydown = function (event) {
+  switch (event.keyCode) {
+    case 32:
+      randomPicture() // space button
+      break;
+  }
+}
+
 
 
 
