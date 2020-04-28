@@ -43,3 +43,10 @@ display: flex;
 justify-content: center;
 flex-wrap: wrap;
 }
+
+#results{
+  display: flex;
+  justify-content: center;
+
+
+}
