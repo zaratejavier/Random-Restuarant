@@ -8,7 +8,7 @@ h1{
   justify-content: center;
 }
 
-#photo{
+#photo, #photo2{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -36,4 +36,10 @@ h1{
   box-shadow: 5px 4px 13px #b3b3b3, -5px -5px 13px #b3b3b3;
   cursor: pointer;
   outline:0;
+}
+
+#box {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
 }
