@@ -11,7 +11,12 @@ document.addEventListener("DOMContentLoaded", function () {
     'images/littleCaesars.png',
     'images/panda.png',
     'images/pizzahut.png',
-    'images/zupas.jpg'
+    'images/zupas.jpg',
+    'images/dominos.jpg',
+    'images/wendys.jpeg',
+    'images/chilis.png',
+    'images/mod.png',
+    'images/dennys.png'
   )
 
   var theResult = document.getElementById("results");
